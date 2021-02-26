@@ -1,11 +1,11 @@
-import './App.css';
+import FeedbackPage from './components/FeedbackPage';
 
-function App() {
-  return (
+const App = () => (
+  <>
     <div className="App">
-
+      <FeedbackPage />
     </div>
-  );
-}
+  </>
+);
 
 export default App;
