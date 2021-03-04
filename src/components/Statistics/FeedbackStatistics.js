@@ -1,15 +1,15 @@
 import Notification from '../Notifiction/Notification';
 
-const FeedbackStatistics = ({ feedbacks, total, percentage }) => {
+const FeedbackStatistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
     <>
       {total > 0 && (
         <ul>
-          <li>Good: {feedbacks.good}</li>
-          <li>Neutral: {feedbacks.neutral}</li>
-          <li>Bad: {feedbacks.bad}</li>
+          <li>Good: {good}</li>
+          <li>Neutral: {neutral}</li>
+          <li>Bad: {bad}</li>
           <li>Total: {total}</li>
-          <li>Percentage: {percentage}</li>
+          <li>Positive feedbacks: {positivePercentage}%</li>
         </ul>
       )}
       {total === 0 && <Notification message="No Feedback given" />}
