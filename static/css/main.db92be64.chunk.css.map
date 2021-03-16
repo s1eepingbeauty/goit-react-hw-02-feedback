@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/app.css"],"names":[],"mappings":"AAAA,GACI,eACJ,CAEA,OACI,gBACJ","file":"main.db92be64.chunk.css","sourcesContent":["ul {\r\n    list-style: none;\r\n}\r\n\r\nbutton {\r\n    margin-right: 5px;\r\n}"]}
