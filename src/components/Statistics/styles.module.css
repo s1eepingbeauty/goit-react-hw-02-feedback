@@ -1,0 +1,10 @@
+.feedbackList {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin-left: 80px;
+}
+
+.feedbackListItem {
+    margin: 0;
+}

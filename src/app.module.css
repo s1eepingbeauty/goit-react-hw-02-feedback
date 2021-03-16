@@ -1,0 +1,8 @@
+.app {
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    height: 260px;
+}

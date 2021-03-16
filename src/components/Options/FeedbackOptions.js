@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import styles from './styles.module.css';
 
 const FeedbackButtons = ({ feedback, onLeaveFeedback }) => {
   return (
-    <button key={feedback} type="button" data-feedback={feedback} onClick={onLeaveFeedback}>
+    <button className={styles.feedbackBtn} key={feedback} type="button" data-feedback={feedback} onClick={onLeaveFeedback}>
       {feedback}
     </button>
   );
